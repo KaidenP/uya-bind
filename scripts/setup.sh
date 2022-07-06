@@ -5,5 +5,7 @@ echo "IP: $IP"
 
 cd /config/records/
 for f in *; do
-  envsubst < "$f" > "/var/bind/pri/$f"
+  envsubst '$IP' < "$f" > "/var/bind/pri/$f"
 done
+
+chown named:named /var/bind -R
