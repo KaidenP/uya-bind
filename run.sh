@@ -1,0 +1,1 @@
+docker run --name uya-bind -p 53:53 -v uya-bind:/var/bind/pri uya-bind
