@@ -1,1 +1,1 @@
-docker run -it --rm -v uya-bind:/var/bind/pri bind-uya /scripts/setup.sh
+docker run -it --rm -v uya-bind:/var/bind/pri uya-bind /scripts/setup.sh
