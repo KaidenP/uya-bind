@@ -1,11 +1,13 @@
 $TTL    604800
-@       IN      SOA     us.dnas.playstation.org. root.localhost. (
+@       IN      SOA     dnas.playstation.org. root.localhost. (
                             2         ; Serial
                         604800         ; Refresh
                         86400         ; Retry
                         2419200         ; Expire
                         604800 )       ; Negative Cache TTL
 
-@       IN      NS      ns1.us.dnas.playstation.org.
+@       IN      NS      ns1.dnas.playstation.org.
 ns1     IN      A       $IP
-gate1     IN      A       45.7.228.197
+gate1.us     IN      A       107.155.81.113
+gate1.eu     IN      A       107.155.81.113
+gate1.jp     IN      A       107.155.81.113
