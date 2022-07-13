@@ -1,5 +1,5 @@
 $TTL    604800
-@       IN      SOA     pdonline.scea.com. root.localhost. (
+@       IN      SOA     online.scee.com. root.localhost. (
                             2         ; Serial
                         604800         ; Refresh
                         86400         ; Retry
@@ -8,4 +8,4 @@ $TTL    604800
 
 @       IN      NS      ns1.pdonline.scea.com.
 ns1     IN      A       $IP
-ratchet3-prod1     IN      A       $IP
+randc3-master     IN      A       $IP
